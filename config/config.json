@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "failte-ireland-alerts-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/failteIrelandAlerts/FailteIrelandAlertsApplicationCustomizer.js",
+          "manifest": "./src/extensions/failteIrelandAlerts/FailteIrelandAlertsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FailteIrelandAlertsApplicationCustomizerStrings": "lib/extensions/failteIrelandAlerts/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

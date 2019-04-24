@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="FailteIrelandAlerts"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="44b1f096-d510-4928-afea-ad2184baeb67"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
